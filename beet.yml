@@ -20,3 +20,4 @@ resource_pack:
 
 require:
   - beet.contrib.auto_yaml
+  - beet_scripts.unknown_files
