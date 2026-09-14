@@ -1,0 +1,8 @@
+{
+  "type": "from_int",
+  "input": {
+    "type": "score",
+    "target": "this",
+    "score": "cc3.stats.time"
+  }
+}

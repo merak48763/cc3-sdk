@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "cc3.impl:stats/used_totem"
+    "function": "cc3.impl:stats/dummy/used_totem"
   }
 }

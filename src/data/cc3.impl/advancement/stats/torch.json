@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "cc3.impl:stats/placed_torch"
+    "function": "cc3.impl:stats/dummy/placed_torch"
   }
 }

@@ -1,0 +1,59 @@
+{
+  "type": "div",
+  "left": {
+    "type": "floor",
+    "input": {
+      "type": "mul",
+      "inputs": [
+        {
+          "type": "number_dispatcher",
+          "cases": [
+            {
+              "condition": {
+                "type": "float_value_check",
+                "value": "cc3.impl:play_time/years",
+                "test": {
+                  "min": 0.5
+                }
+              },
+              "value": "cc3.impl:play_time/years"
+            },
+            {
+              "condition": {
+                "type": "float_value_check",
+                "value": "cc3.impl:play_time/days",
+                "test": {
+                  "min": 0.5
+                }
+              },
+              "value": "cc3.impl:play_time/days"
+            },
+            {
+              "condition": {
+                "type": "float_value_check",
+                "value": "cc3.impl:play_time/hours",
+                "test": {
+                  "min": 0.5
+                }
+              },
+              "value": "cc3.impl:play_time/hours"
+            },
+            {
+              "condition": {
+                "type": "float_value_check",
+                "value": "cc3.impl:play_time/minutes",
+                "test": {
+                  "min": 0.5
+                }
+              },
+              "value": "cc3.impl:play_time/minutes"
+            }
+          ],
+          "default": "cc3.impl:play_time/seconds"
+        },
+        100
+      ]
+    }
+  },
+  "right": 100
+}

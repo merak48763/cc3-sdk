@@ -42,3 +42,22 @@ text.cc3.stats.spawner: Spawners Broken
 text.cc3.stats.time: Time Played
 text.cc3.stats.torch: Torches Placed
 text.cc3.stats.totems: Totems Used
+text.cc3.share_stats: Share to chat
+text.cc3.shared_stats.title: Statistics of %s
+# 1: stat name
+# 2: stat name (invert)
+# 3: stat value
+# 4: stat value (invert)
+# 5: stat name begin offset
+# 6: stat name end offset
+# 7: stat value begin offset
+# 8: stat value end offset
+# 9: big filler to make dialog body actually wide because 0 width causes bugs
+fmt.cc3.stats_entry: '%9$s%5$s%2$s%1$s%6$s%7$s%3$s%4$s%8$s%9$s'
+
+text.cc3.time_unit.0: s
+text.cc3.time_unit.1: min
+text.cc3.time_unit.2: h
+text.cc3.time_unit.3: d
+text.cc3.time_unit.4: 'y'
+fmt.cc3.time_with_unit: '%s %s'

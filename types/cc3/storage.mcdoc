@@ -57,6 +57,15 @@ dispatch minecraft:storage[cc3:macro] to struct {
   teleporter_screen?: struct {
     buttons?: [Button],
   },
+  stats_screen?: struct {
+    deaths?: int,
+    mob_kills?: int,
+    spawner?: int,
+    torch?: int,
+    totems?: int,
+    time?: (float | string),
+    time_unit_type?: int,
+  },
   list_access?: struct {
     index?: int,
   },

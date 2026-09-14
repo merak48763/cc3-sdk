@@ -1,0 +1,46 @@
+{
+  "type": "number_dispatcher",
+  "cases": [
+    {
+      "condition": {
+        "type": "float_value_check",
+        "value": "cc3.impl:play_time/years",
+        "test": {
+          "min": 0.5
+        }
+      },
+      "value": 4
+    },
+    {
+      "condition": {
+        "type": "float_value_check",
+        "value": "cc3.impl:play_time/days",
+        "test": {
+          "min": 0.5
+        }
+      },
+      "value": 3
+    },
+    {
+      "condition": {
+        "type": "float_value_check",
+        "value": "cc3.impl:play_time/hours",
+        "test": {
+          "min": 0.5
+        }
+      },
+      "value": 2
+    },
+    {
+      "condition": {
+        "type": "float_value_check",
+        "value": "cc3.impl:play_time/minutes",
+        "test": {
+          "min": 0.5
+        }
+      },
+      "value": 1
+    }
+  ],
+  "default": 0
+}

@@ -16,3 +16,9 @@ data modify storage algol:dialog_registry value."cc3:teleporter" set value { \
   form_idle_value: -1, \
   on_form_submit: "function cc3.impl:teleporter/handle_input" \
 }
+data modify storage algol:dialog_registry value."cc3:stats" set value { \
+  show: "function cc3.impl:stats/show_screen", \
+  buttons: { \
+    1: "function cc3.impl:stats/share_to_chat" \
+  } \
+}
