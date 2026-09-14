@@ -52,3 +52,5 @@ text.cc3.time_unit.2: h
 text.cc3.time_unit.3: d
 text.cc3.time_unit.4: 'y'
 fmt.cc3.time_with_unit: '%s %s'
+
+text.cc3.death_tax_exempt.boss: 因為在boss戰中死亡，所以不受死亡懲罰影響。

@@ -61,3 +61,5 @@ text.cc3.time_unit.2: h
 text.cc3.time_unit.3: d
 text.cc3.time_unit.4: 'y'
 fmt.cc3.time_with_unit: '%s %s'
+
+text.cc3.death_tax_exempt.boss: You were not affected by death penalty because you died in a boss fight.
