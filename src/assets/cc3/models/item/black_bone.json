@@ -1,0 +1,6 @@
+{
+  "parent": "item/bone",
+  "textures": {
+    "layer0": "cc3:item/black_bone"
+  }
+}

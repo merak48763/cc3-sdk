@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bone",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_name": {"translate": "item.cc3.black_bone"},
+                "item_model": "cc3:black_bone"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
