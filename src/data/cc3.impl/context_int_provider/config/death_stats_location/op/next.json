@@ -1,0 +1,8 @@
+{
+  "type": "mod",
+  "left": {
+    "type": "add",
+    "inputs": ["cc3.impl:config/death_stats_location", 1]
+  },
+  "right": 3
+}

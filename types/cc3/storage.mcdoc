@@ -3,6 +3,7 @@ use ::java::data::dialog::Button
 
 dispatch minecraft:storage[cc3:config] to struct {
   death_tax_mode?: DeathTaxMode,
+  death_stats_location?: DeathStatsLocation,
 }
 
 enum(int) DeathTaxMode {
@@ -10,6 +11,12 @@ enum(int) DeathTaxMode {
   Mild = 1,
   Normal = 2,
   Challenge = 3,
+}
+
+enum(int) DeathStatsLocation {
+  Off = 0,
+  Sidebar = 1,
+  TabList = 2,
 }
 
 dispatch minecraft:storage[cc3:teleporter] to struct {
@@ -43,7 +50,9 @@ dispatch minecraft:storage[cc3:macro] to struct {
   config_screen?: struct {
     difficulty?: GameplayDifficultyType,
     death_tax?: DeathTaxType,
+    death_tax_trailing_styles?: string,
     pvp?: ToggleType,
+    death_stats?: DeathStatsType,
   },
   teleporter_screen?: struct {
     buttons?: [Button],
@@ -69,4 +78,10 @@ enum(string) DeathTaxType {
 enum(string) ToggleType {
   On = "on",
   Off = "off",
+}
+
+enum(string) DeathStatsType {
+  Off = "off",
+  Sidebar = "sidebar",
+  TabList = "list",
 }

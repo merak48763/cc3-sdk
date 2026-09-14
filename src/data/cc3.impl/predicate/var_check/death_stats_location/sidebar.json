@@ -1,0 +1,5 @@
+{
+  "type": "int_value_check",
+  "value": "cc3.impl:config/death_stats_location",
+  "test": 1
+}

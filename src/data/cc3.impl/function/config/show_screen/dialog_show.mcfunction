@@ -15,7 +15,7 @@ $dialog show @s { \
       action: {type: "run_command", command: "trigger al.dialog.button set 11"} \
     }, \
     { \
-      label: {translate: "options.generic_value", with: [{translate: "text.cc3.config.death_tax"}, {translate: "text.cc3.config.death_tax.$(death_tax)"}]}, \
+      label: {translate: "options.generic_value", with: [{translate: "text.cc3.config.death_tax"}, {translate: "text.cc3.config.death_tax.$(death_tax)"$(death_tax_trailing_styles)}]}, \
       tooltip: {translate: "text.cc3.config.death_tax.$(death_tax).info"}, \
       width: 150, \
       action: {type: "run_command", command: "trigger al.dialog.button set 2"} \
@@ -34,6 +34,16 @@ $dialog show @s { \
       label: {translate: "text.cc3.config.reset"}, \
       width: 50, \
       action: {type: "run_command", command: "trigger al.dialog.button set 13"} \
+    }, \
+    { \
+      label: {translate: "options.generic_value", with: [{translate: "text.cc3.config.death_stats_location"}, {translate: "text.cc3.config.death_stats_location.$(death_stats)"}]}, \
+      width: 150, \
+      action: {type: "run_command", command: "trigger al.dialog.button set 4"} \
+    }, \
+    { \
+      label: {translate: "text.cc3.config.reset"}, \
+      width: 50, \
+      action: {type: "run_command", command: "trigger al.dialog.button set 14"} \
     } \
   ], \
   exit_action: { \

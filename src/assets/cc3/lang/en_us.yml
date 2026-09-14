@@ -26,8 +26,19 @@ text.cc3.config.death_tax.challenge: Challenge!
 text.cc3.config.death_tax.challenge.info: |-
   Upon death, items lose 99%% of durability.
   In addition, items with Curse of Vanishing are deleted.
+text.cc3.config.death_stats_location: Death Count
+text.cc3.config.death_stats_location.off: Hide
+text.cc3.config.death_stats_location.sidebar: Sidebar
+text.cc3.config.death_stats_location.list: Player List
 text.cc3.config.reset: Reset
 
 text.cc3.teleporter.title: Teleport
 text.cc3.teleporter.info: Select the location to teleport to.
 text.cc3.teleporter.empty: No unlocked teleporters.
+
+text.cc3.stats.deaths: Deaths
+text.cc3.stats.mob_kills: Mobs Killed
+text.cc3.stats.spawner: Spawners Broken
+text.cc3.stats.time: Time Played
+text.cc3.stats.torch: Torches Placed
+text.cc3.stats.totems: Totems Used

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "placed_torch": {
+      "trigger": "placed_block",
+      "conditions": {
+        "location": {
+          "type": "match_tool",
+          "predicate": {
+            "items": ["torch", "copper_torch", "soul_torch"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cc3.impl:stats/placed_torch"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "used_totem": {
+      "trigger": "used_totem"
+    }
+  },
+  "rewards": {
+    "function": "cc3.impl:stats/used_totem"
+  }
+}

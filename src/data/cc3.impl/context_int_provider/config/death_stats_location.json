@@ -1,0 +1,6 @@
+{
+  "type": "storage",
+  "storage": "cc3:config",
+  "path": "death_stats_location",
+  "fallback": 0
+}

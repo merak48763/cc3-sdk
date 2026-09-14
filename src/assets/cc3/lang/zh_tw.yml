@@ -26,8 +26,19 @@ text.cc3.config.death_tax.challenge: 挑戰！
 text.cc3.config.death_tax.challenge.info: |-
   死亡時，物品損失 99%% 耐久度。
   此外，有消失詛咒的物品會被刪除。
+text.cc3.config.death_stats_location: 死亡次數
+text.cc3.config.death_stats_location.off: 隱藏
+text.cc3.config.death_stats_location.sidebar: 側邊欄
+text.cc3.config.death_stats_location.list: 玩家列表
 text.cc3.config.reset: 重設
 
 text.cc3.teleporter.title: 傳送
 text.cc3.teleporter.info: 選擇想要前往的傳送點。
 text.cc3.teleporter.empty: 沒有已解鎖的傳送點。
+
+text.cc3.stats.deaths: 死亡次數
+text.cc3.stats.mob_kills: 擊殺怪物
+text.cc3.stats.spawner: 破壞生怪磚
+text.cc3.stats.time: 遊戲時間
+text.cc3.stats.torch: 放置火把
+text.cc3.stats.totems: 使用不死圖騰
