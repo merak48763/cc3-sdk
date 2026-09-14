@@ -1,0 +1,33 @@
+%YAML 1.1
+---
+
+enchantment.cc3.tax_evasion: 懲罰無效
+
+text.cc3.config.difficulty.easy.info: |-
+  怪物的攻擊力較低。
+  有些機制可能會變得更簡單。
+text.cc3.config.difficulty.normal.info: 原始設定的難度。
+text.cc3.config.difficulty.hard.info: |-
+  怪物的攻擊力較高。
+  有些機制可能會變得更困難。
+text.cc3.config.death_tax: 死亡懲罰
+text.cc3.config.death_tax.off: 無
+text.cc3.config.death_tax.off.info: 沒有死亡懲罰。
+text.cc3.config.death_tax.mild: 輕微
+text.cc3.config.death_tax.mild.info: |-
+  死亡時，物品損失 15%% 耐久度。
+  （耐久度最低只會減少至 1。）
+  此外，有消失詛咒的物品會被刪除。
+text.cc3.config.death_tax.normal: 一般
+text.cc3.config.death_tax.normal.info: |-
+  死亡時，物品損失 20%% 耐久度。
+  此外，有消失詛咒的物品會被刪除。
+text.cc3.config.death_tax.challenge: 挑戰！
+text.cc3.config.death_tax.challenge.info: |-
+  死亡時，物品損失 99%% 耐久度。
+  此外，有消失詛咒的物品會被刪除。
+text.cc3.config.reset: 重設
+
+text.cc3.teleporter.title: 傳送
+text.cc3.teleporter.info: 選擇想要前往的傳送點。
+text.cc3.teleporter.empty: 沒有已解鎖的傳送點。

@@ -1,0 +1,33 @@
+%YAML 1.1
+---
+
+enchantment.cc3.tax_evasion: Penalty Evasion
+
+text.cc3.config.difficulty.easy.info: |-
+  Mobs deal less damage.
+  Some mechanisms may be more forgiving.
+text.cc3.config.difficulty.normal.info: The intended difficulty.
+text.cc3.config.difficulty.hard.info: |-
+  Mobs deal more damage.
+  Some mechanisms may be harsher.
+text.cc3.config.death_tax: Death Penalty
+text.cc3.config.death_tax.off: 'Off'
+text.cc3.config.death_tax.off.info: No penalty is applied.
+text.cc3.config.death_tax.mild: Mild
+text.cc3.config.death_tax.mild.info: |-
+  Upon death, items lose 15%% of durability.
+  (The durability can only be reduced to a minimum of 1.)
+  In addition, items with Curse of Vanishing are deleted.
+text.cc3.config.death_tax.normal: Normal
+text.cc3.config.death_tax.normal.info: |-
+  Upon death, items lose 20%% of durability.
+  In addition, items with Curse of Vanishing are deleted.
+text.cc3.config.death_tax.challenge: Challenge!
+text.cc3.config.death_tax.challenge.info: |-
+  Upon death, items lose 99%% of durability.
+  In addition, items with Curse of Vanishing are deleted.
+text.cc3.config.reset: Reset
+
+text.cc3.teleporter.title: Teleport
+text.cc3.teleporter.info: Select the location to teleport to.
+text.cc3.teleporter.empty: No unlocked teleporters.
