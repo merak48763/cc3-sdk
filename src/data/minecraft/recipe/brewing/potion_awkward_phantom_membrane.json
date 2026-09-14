@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "awkward"
+    }
+  },
+  "reagent": {
+    "item": "phantom_membrane"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "slow_falling"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

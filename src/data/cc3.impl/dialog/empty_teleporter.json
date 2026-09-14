@@ -1,0 +1,13 @@
+{
+  "type": "notice",
+  "title": {"translate": "text.cc3.teleporter.title"},
+  "after_action": "none", "pause": false,
+  "body": {
+    "type": "plain_message",
+    "contents": {"translate": "text.cc3.teleporter.empty"}
+  },
+  "action": {
+    "label": {"translate": "gui.cancel"},
+    "action": {"type": "run_command", "command": "trigger al.dialog.button set -1"}
+  }
+}

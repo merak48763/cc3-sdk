@@ -1,0 +1,53 @@
+{
+  "description": {"text": "cc3.impl:villager_explode", "color": "dark_gray"},
+  "supported_items": [],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 0,
+  "slots": ["body"],
+  "effects": {
+    "location_changed": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "explode",
+              "attribute_to_user": true,
+              "damage_type": "explosion",
+              "radius": 4,
+              "create_fire": true,
+              "block_interaction": "mob",
+              "small_particle": {"type": "explosion"},
+              "large_particle": {"type": "explosion_emitter"},
+              "block_particles": [
+                {
+                  "weight": 1,
+                  "particle": {"type": "poof"},
+                  "scaling": 0.5
+                },
+                {
+                  "weight": 1,
+                  "particle": {"type": "smoke"}
+                }
+              ],
+              "sound": "entity.generic.explode"
+            },
+            {
+              "type": "damage_entity",
+              "damage_type": "generic_kill",
+              "min_damage": 3.4028234663852886e38,
+              "max_damage": 3.4028234663852886e38
+            }
+          ]
+        },
+        "requirements": {
+          "type": "enchantment_active_check",
+          "active": false
+        }
+      }
+    ]
+  }
+}

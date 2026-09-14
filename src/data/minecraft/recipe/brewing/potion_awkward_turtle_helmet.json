@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "awkward"
+    }
+  },
+  "reagent": {
+    "item": "turtle_helmet"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "turtle_master"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

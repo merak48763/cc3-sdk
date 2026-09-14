@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "splash_potion",
+    "potion_contents": {
+      "potions": "weakness"
+    }
+  },
+  "reagent": {
+    "item": "redstone"
+  },
+  "output": {
+    "id": "splash_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "long_weakness"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

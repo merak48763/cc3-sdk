@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "poison"
+    }
+  },
+  "reagent": {
+    "item": "glowstone_dust"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "strong_poison"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

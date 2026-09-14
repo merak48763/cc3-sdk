@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "healing"
+    }
+  },
+  "reagent": {
+    "item": "gunpowder"
+  },
+  "output": {
+    "id": "splash_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "healing"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

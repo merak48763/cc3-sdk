@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "lingering_potion",
+    "potion_contents": {
+      "potions": "awkward"
+    }
+  },
+  "reagent": {
+    "item": "blaze_powder"
+  },
+  "output": {
+    "id": "lingering_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "strength"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "swiftness"
+    }
+  },
+  "reagent": {
+    "item": "redstone"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "long_swiftness"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "filtered",
+  "item_filter": {
+    "predicates": {
+      "max_damage": {},
+      "damage": {
+        "durability": {"max": 0}
+      }
+    }
+  },
+  "on_pass": {
+    "type": "filtered",
+    "item_filter": {
+      "predicates": {
+        "unbreakable": {}
+      }
+    },
+    "on_fail": [
+      {
+        "type": "set_damage",
+        "damage": 0.000000059604644775390625,
+        "condition": "cc3.impl:death_tax/keep_remainder"
+      },
+      {
+        "type": "discard",
+        "condition": "cc3.impl:death_tax/delete_remainder"
+      }
+    ]
+  }
+}

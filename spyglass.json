@@ -1,5 +1,6 @@
 {
   "env": {
+    "gameVersion": "26.3-rc-2",
     "dependencies": [
       "@vanilla-datapack",
       "@vanilla-resourcepack",

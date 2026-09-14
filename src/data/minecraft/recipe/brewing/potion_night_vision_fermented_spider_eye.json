@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "night_vision"
+    }
+  },
+  "reagent": {
+    "item": "fermented_spider_eye"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "invisibility"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "awkward"
+    }
+  },
+  "reagent": {
+    "item": "magma_cream"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "fire_resistance"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

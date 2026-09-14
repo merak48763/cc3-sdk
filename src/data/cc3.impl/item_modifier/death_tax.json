@@ -1,0 +1,28 @@
+{
+  "type": "filtered",
+  "item_filter": {
+    "predicates": {
+      "enchantments": [
+        {"enchantments": "#cc3:vanishing"}
+      ]
+    }
+  },
+  "on_pass": {
+    "type": "discard"
+  },
+  "on_fail": {
+    "type": "filtered",
+    "item_filter": {
+      "predicates": {
+        "enchantments": [
+          {"enchantments": "cc3:tax_evasion"}
+        ]
+      }
+    },
+    "on_fail": [
+      "cc3.impl:death_tax/damage_item",
+      "cc3.impl:death_tax/process_remainder"
+    ]
+  },
+  "condition": "cc3.impl:death_tax/active"
+}

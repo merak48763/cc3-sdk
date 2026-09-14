@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "regeneration"
+    }
+  },
+  "reagent": {
+    "item": "redstone"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "long_regeneration"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

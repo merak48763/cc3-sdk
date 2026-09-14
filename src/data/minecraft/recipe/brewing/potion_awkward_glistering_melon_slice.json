@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "awkward"
+    }
+  },
+  "reagent": {
+    "item": "glistering_melon_slice"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "healing"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

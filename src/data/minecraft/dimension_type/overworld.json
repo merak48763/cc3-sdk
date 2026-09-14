@@ -1,0 +1,44 @@
+{
+  "attributes": {
+    "gameplay/bed_rule": {
+      "can_sleep": "when_dark",
+      "can_set_spawn": "always",
+      "error_message": {"translate": "block.minecraft.bed.no_sleep"}
+    },
+    "gameplay/straw_bed_rule": {
+      "can_sleep": "when_dark",
+      "can_set_spawn": "never",
+      "destroy_on_leave": true,
+      "error_message": {"translate": "block.minecraft.bed.no_sleep"}
+    },
+    "gameplay/can_pillager_patrol_spawn": false,
+    "gameplay/can_start_raid": false,
+    "gameplay/piglins_zombify": false,
+    "visual/ambient_light_color": "#0a0a0a",
+    "visual/cloud_color": "#ccffffff",
+    "visual/cloud_height": 192.33,
+    "visual/fog_color": "#c0d8ff",
+    "visual/fog_start_distance": 16,
+    "visual/fog_end_distance": 1024,
+    "visual/sky_color": "#78a7ff",
+    "visual/sky_fog_end_distance": 192,
+    "visual/sunrise_sunset_color": "#ffffffff"
+  },
+  "default_clock": "overworld",
+  "timelines": "#in_overworld",
+  "has_skylight": true,
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "coordinate_scale": 1,
+  "ambient_light": 0,
+  "logical_height": 384,
+  "infiniburn": "#infiniburn_overworld",
+  "min_y": -64,
+  "height": 384,
+  "monster_spawn_light_level": {
+    "type": "uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 7
+  },
+  "monster_spawn_block_light_limit": 0
+}

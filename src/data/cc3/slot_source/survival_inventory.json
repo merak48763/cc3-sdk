@@ -1,0 +1,31 @@
+{
+  "type": "group",
+  "terms": [
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "hotbar.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "inventory.*"
+    },
+    "cc3:humanoid_armor",
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "weapon.offhand"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "player.crafting.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "player.cursor"
+    }
+  ]
+}

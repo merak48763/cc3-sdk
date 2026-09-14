@@ -1,0 +1,10 @@
+{
+  "type": "int_value_check",
+  "value": {
+    "type": "score",
+    "target": "this",
+    "score": "cc3.teleporter_id",
+    "fallback": -1
+  },
+  "test": -1
+}

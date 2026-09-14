@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "strong_regeneration"
+    }
+  },
+  "reagent": {
+    "item": "gunpowder"
+  },
+  "output": {
+    "id": "splash_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "strong_regeneration"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

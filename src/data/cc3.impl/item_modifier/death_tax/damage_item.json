@@ -1,0 +1,5 @@
+{
+  "type": "set_damage",
+  "damage": "cc3.impl:death_tax/amount",
+  "add": true
+}

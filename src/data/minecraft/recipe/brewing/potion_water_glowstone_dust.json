@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "water"
+    }
+  },
+  "reagent": {
+    "item": "glowstone_dust"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "thick"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

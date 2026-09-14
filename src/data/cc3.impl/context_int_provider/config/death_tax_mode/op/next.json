@@ -1,0 +1,8 @@
+{
+  "type": "mod",
+  "left": {
+    "type": "add",
+    "inputs": ["cc3.impl:config/death_tax_mode", 1]
+  },
+  "right": 4
+}

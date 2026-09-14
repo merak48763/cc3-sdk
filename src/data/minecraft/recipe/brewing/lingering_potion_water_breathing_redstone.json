@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "lingering_potion",
+    "potion_contents": {
+      "potions": "water_breathing"
+    }
+  },
+  "reagent": {
+    "item": "redstone"
+  },
+  "output": {
+    "id": "lingering_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "long_water_breathing"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

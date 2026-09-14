@@ -1,0 +1,18 @@
+{
+  "type": "all_of",
+  "terms": [
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific/player": {
+          "gamemode": ["survival"]
+        }
+      }
+    },
+    {
+      "type": "any_of",
+      "terms": "#cc3:should_be_adventure_mode"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "type": "add",
+  "inputs": ["cc3.impl:var/counter", 1]
+}

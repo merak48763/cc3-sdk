@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "splash_potion",
+    "potion_contents": {
+      "potions": "long_water_breathing"
+    }
+  },
+  "reagent": {
+    "item": "dragon_breath"
+  },
+  "output": {
+    "id": "lingering_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "long_water_breathing"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "type": "barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "book",
+          "modifier": {
+            "type": "set_enchantments",
+            "enchantments": {
+              "soul_speed": {
+                "type": "weighted_list",
+                "distribution": [
+                  {"data": 1, "weight": 4},
+                  {"data": 2, "weight": 2},
+                  {"data": 3, "weight": 1}
+                ]
+              }
+            }
+          }
+        },
+        {
+          "weight": 8,
+          "type": "item",
+          "name": "potion",
+          "modifier": [
+            {
+              "type": "set_potion",
+              "id": "fire_resistance"
+            },
+            "cc3:potion"
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "item",
+          "name": "splash_potion",
+          "modifier": [
+            {
+              "type": "set_potion",
+              "id": "fire_resistance"
+            },
+            "cc3:potion"
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "potion",
+          "modifier": {
+            "type": "set_potion",
+            "id": "water"
+          }
+        },
+        {
+          "weight": 20,
+          "type": "item",
+          "name": "string",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 3,
+              "max": 9
+            }
+          }
+        },
+        {
+          "weight": 20,
+          "type": "item",
+          "name": "quartz",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 5,
+              "max": 12
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "obsidian"
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "crying_obsidian",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "fire_charge"
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "leather",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "soul_sand",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 2,
+              "max": 8
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "nether_brick",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 2,
+              "max": 8
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "spectral_arrow",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 3,
+              "max": 6
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "gravel",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 8,
+              "max": 16
+            }
+          }
+        },
+        {
+          "weight": 40,
+          "type": "item",
+          "name": "blackstone",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+              "type": "uniform",
+              "min": 8,
+              "max": 16
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "gameplay/piglin_bartering"
+}

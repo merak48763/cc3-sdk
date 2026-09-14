@@ -1,0 +1,29 @@
+{
+  "type": "fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "quality": -2,
+          "type": "loot_table",
+          "value": "gameplay/fishing/junk"
+        },
+        {
+          "weight": 5,
+          "quality": 2,
+          "type": "loot_table",
+          "value": "gameplay/fishing/treasure"
+        },
+        {
+          "weight": 85,
+          "quality": -1,
+          "type": "loot_table",
+          "value": "gameplay/fishing/fish"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "gameplay/fishing"
+}

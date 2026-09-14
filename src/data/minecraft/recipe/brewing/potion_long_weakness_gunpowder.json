@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "long_weakness"
+    }
+  },
+  "reagent": {
+    "item": "gunpowder"
+  },
+  "output": {
+    "id": "splash_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "long_weakness"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

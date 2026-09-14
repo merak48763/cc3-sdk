@@ -1,0 +1,116 @@
+{
+  "type": "fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 17,
+          "type": "item",
+          "name": "lily_pad"
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "leather_boots",
+          "modifier": [
+            {
+              "type": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0,
+                "max": 0.9
+              }
+            },
+            "cc3:truncate_durability"
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "leather"
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "bone"
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "potion",
+          "modifier": {
+            "type": "set_potion",
+            "id": "water"
+          }
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "string"
+        },
+        {
+          "weight": 2,
+          "type": "item",
+          "name": "fishing_rod",
+          "modifier": [
+            {
+              "type": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0,
+                "max": 0.9
+              }
+            },
+            "cc3:truncate_durability"
+          ]
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "bowl"
+        },
+        {
+          "weight": 5,
+          "type": "item",
+          "name": "stick"
+        },
+        {
+          "weight": 1,
+          "type": "item",
+          "name": "ink_sac",
+          "modifier": {
+            "type": "set_count",
+            "count": 10
+          }
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "tripwire_hook"
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "rotten_flesh"
+        },
+        {
+          "weight": 10,
+          "type": "item",
+          "name": "bamboo",
+          "condition": {
+            "type": "location_check",
+            "predicate": {
+              "biomes": [
+                "jungle",
+                "sparse_jungle",
+                "bamboo_jungle"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "gameplay/fishing/junk"
+}

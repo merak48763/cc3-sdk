@@ -1,0 +1,29 @@
+{
+  "type": "number_dispatcher",
+  "cases": [
+    {
+      "condition": {
+        "type": "int_value_check",
+        "value": "cc3.impl:config/death_tax_mode",
+        "test": 1
+      },
+      "value": -0.15
+    },
+    {
+      "condition": {
+        "type": "int_value_check",
+        "value": "cc3.impl:config/death_tax_mode",
+        "test": 2
+      },
+      "value": -0.2
+    },
+    {
+      "condition": {
+        "type": "int_value_check",
+        "value": "cc3.impl:config/death_tax_mode",
+        "test": 3
+      },
+      "value": -0.99
+    }
+  ]
+}

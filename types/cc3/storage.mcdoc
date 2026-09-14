@@ -1,0 +1,72 @@
+use ::java::util::text::Text
+use ::java::data::dialog::Button
+
+dispatch minecraft:storage[cc3:config] to struct {
+  death_tax_mode?: DeathTaxMode,
+}
+
+enum(int) DeathTaxMode {
+  Off = 0,
+  Mild = 1,
+  Normal = 2,
+  Challenge = 3,
+}
+
+dispatch minecraft:storage[cc3:teleporter] to struct {
+  teleporters?: [TeleporterData],
+  iter?: struct {
+    /// Clone to iterate through
+    remaining?: [TeleporterData],
+    this?: TeleporterData,
+  }
+}
+
+struct TeleporterData {
+  name: Text,
+  unlocked?: struct {},
+  pos: BlockPos,
+}
+
+struct BlockPos {
+  x: int,
+  y: int,
+  z: int,
+}
+
+dispatch minecraft:storage[cc3:var] to struct {
+  difficulty?: int @ 0..3,
+  pvp?: int @ 0..1,
+  counter?: int @ 0..,
+}
+
+dispatch minecraft:storage[cc3:macro] to struct {
+  config_screen?: struct {
+    difficulty?: GameplayDifficultyType,
+    death_tax?: DeathTaxType,
+    pvp?: ToggleType,
+  },
+  teleporter_screen?: struct {
+    buttons?: [Button],
+  },
+  list_access?: struct {
+    index?: int,
+  },
+}
+
+enum(string) GameplayDifficultyType {
+  Easy = "easy",
+  Normal = "normal",
+  Hard = "hard",
+}
+
+enum(string) DeathTaxType {
+  Off = "off",
+  Mild = "mild",
+  Normal = "normal",
+  Challenge = "challenge",
+}
+
+enum(string) ToggleType {
+  On = "on",
+  Off = "off",
+}

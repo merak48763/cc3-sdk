@@ -1,0 +1,24 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "obsidian",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 8
+            },
+            {
+              "type": "explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "blocks/ender_chest"
+}

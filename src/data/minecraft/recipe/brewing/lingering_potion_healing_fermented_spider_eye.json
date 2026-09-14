@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "lingering_potion",
+    "potion_contents": {
+      "potions": "healing"
+    }
+  },
+  "reagent": {
+    "item": "fermented_spider_eye"
+  },
+  "output": {
+    "id": "lingering_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "harming"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

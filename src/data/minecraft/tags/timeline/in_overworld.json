@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "day",
+    "cc3.impl:day",
+    "moon"
+  ]
+}

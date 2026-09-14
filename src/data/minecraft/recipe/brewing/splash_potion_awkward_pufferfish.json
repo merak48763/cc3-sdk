@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "splash_potion",
+    "potion_contents": {
+      "potions": "awkward"
+    }
+  },
+  "reagent": {
+    "item": "pufferfish"
+  },
+  "output": {
+    "id": "splash_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "water_breathing"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

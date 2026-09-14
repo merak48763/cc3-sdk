@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "strong_poison"
+    }
+  },
+  "reagent": {
+    "item": "fermented_spider_eye"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "strong_harming"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

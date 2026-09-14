@@ -1,0 +1,25 @@
+{
+  "type": "group",
+  "terms": [
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "armor.head"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "armor.chest"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "armor.legs"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "armor.feet"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "splash_potion",
+    "potion_contents": {
+      "potions": "wind_charged"
+    }
+  },
+  "reagent": {
+    "item": "dragon_breath"
+  },
+  "output": {
+    "id": "lingering_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "wind_charged"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

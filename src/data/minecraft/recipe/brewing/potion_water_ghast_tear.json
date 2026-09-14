@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "potion",
+    "potion_contents": {
+      "potions": "water"
+    }
+  },
+  "reagent": {
+    "item": "ghast_tear"
+  },
+  "output": {
+    "id": "potion",
+    "components": {
+      "potion_contents": {
+        "potion": "mundane"
+      },
+      "max_stack_size": 16
+    }
+  }
+}

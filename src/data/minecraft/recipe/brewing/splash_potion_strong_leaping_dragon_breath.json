@@ -1,0 +1,21 @@
+{
+  "type": "brewing",
+  "input": {
+    "item": "splash_potion",
+    "potion_contents": {
+      "potions": "strong_leaping"
+    }
+  },
+  "reagent": {
+    "item": "dragon_breath"
+  },
+  "output": {
+    "id": "lingering_potion",
+    "components": {
+      "potion_contents": {
+        "potion": "strong_leaping"
+      },
+      "max_stack_size": 16
+    }
+  }
+}
