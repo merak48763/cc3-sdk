@@ -5,10 +5,6 @@
       "@vanilla-datapack",
       "@vanilla-resourcepack",
       "@vanilla-mcdoc",
-      "./dependencies/al-core.zip",
-      "./dependencies/al-cat.zip",
-      "./dependencies/al-dialog.zip",
-      "./dependencies/al-fwb.zip",
       "./dependencies/al-mcdoc.zip"
     ]
   }
