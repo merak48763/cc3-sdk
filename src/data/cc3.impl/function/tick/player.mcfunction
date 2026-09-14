@@ -1,4 +1,4 @@
-function cc3.impl:tick/player/adventure_mode
+function cc3.impl:player/adventure_mode
 
 execute if entity @s[tag=al.dialog.open] run function cc3.impl:teleporter/hold_dialog
 

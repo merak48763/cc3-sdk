@@ -11,6 +11,8 @@ execute store result storage cc3:macro stats_screen.totems int 1 \
 
 data modify storage cc3:macro stats_screen.time \
   set compute default float cc3.impl:play_time/select_value
+# float casting to double causes precision artifacts
+# -> cast to string to avoid that
 data modify storage cc3:macro stats_screen.time \
   set string storage cc3:macro stats_screen.time 0 -1
 data modify storage cc3:macro stats_screen.time_unit_type \

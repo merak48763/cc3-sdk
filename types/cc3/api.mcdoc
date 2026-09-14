@@ -1,0 +1,6 @@
+use ::java::util::text::Text
+
+dispatch algol:player_storage["cc3/action_bar"] to [struct {
+  id: string,
+  text: Text,
+}]

@@ -14,5 +14,6 @@ scoreboard objectives add cc3.stats.totems dummy {translate: "text.cc3.stats.tot
 
 team add cc3.player {translate: "entity.minecraft.player"}
 
-# start low frequency loop
+# start schedule loop
+schedule function cc3.impl:tick_deferred 1t append
 schedule function cc3.impl:teleporter/gc 1s replace

@@ -44,6 +44,7 @@ dispatch minecraft:storage[cc3:var] to struct {
   difficulty?: int @ 0..3,
   pvp?: int @ 0..1,
   counter?: int @ 0..,
+  length?: int @ 0..,
 }
 
 dispatch minecraft:storage[cc3:macro] to struct {

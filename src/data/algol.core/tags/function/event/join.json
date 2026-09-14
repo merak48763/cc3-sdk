@@ -1,5 +1,5 @@
 {
   "values": [
-    "cc3.impl:player/init_stats"
+    "cc3.impl:player/handle_join"
   ]
 }
