@@ -1,0 +1,22 @@
+data_pack:
+  name: cc3-sdk
+  description: Cartocraft III Core Data Pack
+  min_format: 121
+  max_format: 121
+  load:
+    - dependencies/al-core.zip
+    - dependencies/al-cat.zip
+    - dependencies/al-dialog.zip
+    - dependencies/al-fwb.zip
+    - src
+
+resource_pack:
+  name: cc3-sdk
+  description: Cartocraft III Test Resource Pack
+  min_format: [97, 1]
+  max_format: 97
+  load:
+    - src
+
+require:
+  - beet.contrib.auto_yaml
