@@ -9,6 +9,20 @@ data_pack:
     - dependencies/al-dialog.zip
     - dependencies/al-fwb.zip
     - src
+  filter:
+    block:
+      - namespace: ^minecraft$
+        path: ^advancement/(?!recipes/).*
+      - namespace: ^minecraft$
+        path: ^recipe/repair_item\.json$
+      - namespace: ^minecraft$
+        path: ^recipe/name_tag\.json$
+      - namespace: ^minecraft$
+        path: ^advancement/recipes/tools/name_tag\.json$
+      - namespace: ^minecraft$
+        path: ^recipe/ender_chest\.json$
+      - namespace: ^minecraft$
+        path: ^advancement/recipes/decorations/ender_chest\.json$
 
 resource_pack:
   name: cc3-sdk
