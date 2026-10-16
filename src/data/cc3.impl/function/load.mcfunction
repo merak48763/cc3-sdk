@@ -17,3 +17,4 @@ team add cc3.player {translate: "entity.minecraft.player"}
 # start schedule loop
 schedule function cc3.impl:tick_deferred 1t append
 schedule function cc3.impl:teleporter/gc 1s replace
+schedule function cc3.impl:rp_display/update_fallback 1s replace

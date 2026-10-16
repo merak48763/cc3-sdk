@@ -1,7 +1,6 @@
 # manually run in map once
 
-execute unless entity @s[gamemode=creative] run return fail
-
+# placeholder value
 data modify storage cc3:teleporter teleporters set value [ \
   { \
     name: "Very far away", \
@@ -23,5 +22,3 @@ scoreboard players reset * cc3.teleporter_id
 data modify storage cc3:var counter set value 0
 data modify storage cc3:teleporter iter.remaining set from storage cc3:teleporter teleporters
 execute if data storage cc3:teleporter iter.remaining[0] run function cc3.impl:teleporter/init/teleporter_iter
-
-tellraw @s "Initialized teleporters."

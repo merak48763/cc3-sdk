@@ -53,7 +53,17 @@ text.cc3.time_unit.3: d
 text.cc3.time_unit.4: 'y'
 fmt.cc3.time_with_unit: '%s %s'
 
+text.cc3.resourcepack: 資源包
+text.cc3.resourcepack.message: |-
+  資源包已經安裝。
+  地圖內容將以%s顯示。
+# match the name in language menu
+text.cc3.resourcepack.lang: 繁體中文 (台灣)
+# skip text.cc3.resourcepack.lang_info
+
 text.cc3.death_tax_exempt.boss: 因為在boss戰中死亡，所以不受死亡懲罰影響。
 
 item.cc3.black_bone: 黑骨頭
 item.cc3.golden_apple: 未附魔金蘋果
+
+# skip text.cc3.thing

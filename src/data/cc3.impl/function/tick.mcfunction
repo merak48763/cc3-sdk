@@ -7,3 +7,6 @@ item replace entity @e[type=villager] armor.body with command_block[ \
   equippable={slot: "body", equip_sound: "intentionally_empty"}, \
   enchantments={vanishing_curse: 1, binding_curse: 1, "cc3.impl:villager_explode": 1} \
 ]
+
+execute as @e[tag=cc3.button, predicate=cc3.impl:button/show_particle, type=interaction] \
+  at @s anchored eyes run particle end_rod ^ ^ ^ 0 0 0 0 1

@@ -52,7 +52,7 @@ text.cc3.shared_stats.title: Statistics of %s
 # 6: stat name end offset
 # 7: stat value begin offset
 # 8: stat value end offset
-# 9: big filler to make dialog body actually wide because 0 width causes bugs
+# 9: big filler to make dialog body actually wide because 0 width is buggy (MC-311853)
 fmt.cc3.stats_entry: '%9$s%5$s%2$s%1$s%6$s%7$s%3$s%4$s%8$s%9$s'
 
 text.cc3.time_unit.0: s
@@ -62,7 +62,24 @@ text.cc3.time_unit.3: d
 text.cc3.time_unit.4: 'y'
 fmt.cc3.time_with_unit: '%s %s'
 
+text.cc3.resourcepack: Resource Pack
+# 1: language name
+# 2: hover area (hardcoded "[?]" text)
+#    ↑ note: this should only appear in en_us
+text.cc3.resourcepack.message: |-
+  Resource pack is installed.
+  Map contents will be displayed in %s. %s
+# match the name in language menu
+text.cc3.resourcepack.lang: English (US)
+# this message only appear in en_us
+text.cc3.resourcepack.lang_info: |-
+  If your game displays in a different language, it means that your language is not supported by this map.
+  You can continue without making any changes. However it's recommended to switch to English for better consistency.
+
 text.cc3.death_tax_exempt.boss: You were not affected by death penalty because you died in a boss fight.
 
 item.cc3.black_bone: Black Bone
 item.cc3.golden_apple: Unenchanted Golden Apple
+
+# doesn't need translation
+text.cc3.thing: '%s'
