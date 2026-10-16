@@ -12,6 +12,8 @@ scoreboard objectives add cc3.stats.time custom:play_time {translate: "text.cc3.
 scoreboard objectives add cc3.stats.torch dummy {translate: "text.cc3.stats.torch"}
 scoreboard objectives add cc3.stats.totems dummy {translate: "text.cc3.stats.totems"}
 
+scoreboard objectives add lexica trigger {translate: "catalog.book", color: "#88ff88"}
+
 team add cc3.player {translate: "entity.minecraft.player"}
 
 # start schedule loop
