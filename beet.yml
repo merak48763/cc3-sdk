@@ -32,9 +32,17 @@ resource_pack:
   load:
     - src
 
+meta:
+  catalog_datagen:
+    output:
+      function: cc3.catalog:__generated
+      enchantment_tag: cc3.catalog:holder
+
 require:
   - beet.contrib.auto_yaml
   - beet_scripts.unknown_files
 
 pipeline:
+  - beet_scripts.enchantment_levels
+  - beet_scripts.catalog_datagen
   - beet_scripts.negative_spaces
