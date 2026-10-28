@@ -1,0 +1,3 @@
+include = ["beet_scripts/**/*.py"]
+indent-width = 2
+target-version = "py314"

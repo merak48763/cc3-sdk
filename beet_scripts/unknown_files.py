@@ -1,6 +1,7 @@
-from beet import Context
-from beet.contrib.unknown_files import unknown_files, UnknownAsset, UnknownData
 import logging
+
+from beet import Context
+from beet.contrib.unknown_files import UnknownAsset, UnknownData, unknown_files
 
 LOGGER = logging.getLogger(__name__)
 
