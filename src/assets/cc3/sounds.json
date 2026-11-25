@@ -1,0 +1,8 @@
+{
+  "teleporter.unlock": {
+    "sounds": [
+      "block/enchantment_table/enchant2"
+    ],
+    "subtitle": "subtitles.cc3.teleporter.unlock"
+  }
+}

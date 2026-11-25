@@ -3,15 +3,15 @@
 # placeholder value
 data modify storage cc3:teleporter teleporters set value [ \
   { \
-    name: "Very far away", \
+    name: {text: "Very far away", color: "yellow"}, \
     pos: {x: 10000, y: 106, z: 0} \
   }, \
   { \
-    name: "Test 001", \
+    name: {text: "Test 001"}, \
     pos: {x: 73, y: 106, z: -23} \
   }, \
   { \
-    name: "Test 002", \
+    name: {text: "Test 002"}, \
     pos: {x: 0, y: 200, z: 0} \
   } \
 ]

@@ -1,6 +1,6 @@
 # base button
 data modify storage cc3:macro teleporter_screen.buttons \
-  append value {label: "", action: {type: "run_command", command: "trigger al.dialog.button set -1"}}
+  append value {label: "", action: {type: "run_command", command: "trigger al.dialog.button set -1"}, width: 180}
 
 # label
 data modify storage cc3:macro teleporter_screen.buttons[-1].label \

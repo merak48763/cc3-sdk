@@ -22,7 +22,7 @@ text.cc3.config.death_tax.normal: Normal
 text.cc3.config.death_tax.normal.info: |-
   Upon death, items lose 20%% of durability.
   In addition, items with Curse of Vanishing are deleted.
-text.cc3.config.death_tax.challenge: Challenge!
+text.cc3.config.death_tax.challenge: Unplayable
 text.cc3.config.death_tax.challenge.info: |-
   Upon death, items lose 99%% of durability.
   In addition, items with Curse of Vanishing are deleted.
@@ -33,8 +33,20 @@ text.cc3.config.death_stats_location.list: Player List
 text.cc3.config.reset: Reset
 
 text.cc3.teleporter.title: Teleport
-text.cc3.teleporter.info: Select the location to teleport to.
-text.cc3.teleporter.empty: No unlocked teleporters.
+text.cc3.teleporter.info: |-
+  Current location:
+  %s
+
+  Select the location to teleport to.
+text.cc3.teleporter.empty: |-
+  Current location:
+  %s
+
+  There are no other teleporters unlocked now.
+  Keep exploring!
+text.cc3.teleporter.invalid_destination: |-
+  The destination teleporter is not unlocked.
+  ...How did you trigger this teleport command?
 
 text.cc3.stats.deaths: Deaths
 text.cc3.stats.mob_kills: Mobs Killed
@@ -74,7 +86,7 @@ text.cc3.resourcepack.lang: English (US)
 # this message only appear in en_us
 text.cc3.resourcepack.lang_info: |-
   If your game displays in a different language, it means that your language is not supported by this map.
-  You can continue without making any changes. However it's recommended to switch to English for better consistency.
+  You can continue without making any changes. However, it's recommended to switch to English for better consistency.
 
 text.cc3.death_tax_exempt.boss: You were not affected by death penalty because you died in a boss fight.
 
@@ -83,3 +95,5 @@ item.cc3.golden_apple: Unenchanted Golden Apple
 
 # doesn't need translation
 text.cc3.thing: '%s'
+
+subtitles.cc3.teleporter.unlock: Teleporter is unlocked

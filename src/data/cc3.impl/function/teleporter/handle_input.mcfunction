@@ -5,5 +5,7 @@ function cc3.impl:teleporter/handle_input/load_teleporter with storage cc3:macro
 
 execute if data storage cc3:teleporter iter.this.unlocked \
   run function cc3.impl:teleporter/handle_input/teleport with storage cc3:teleporter iter.this.pos
+execute unless data storage cc3:teleporter iter.this.unlocked \
+  run tellraw @s {translate: "text.cc3.teleporter.invalid_destination"}
 
 function algol.dialog:close

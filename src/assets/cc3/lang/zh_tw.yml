@@ -11,7 +11,7 @@ text.cc3.config.difficulty.hard.info: |-
   怪物的攻擊力較高。
   有些機制可能會變得更困難。
 text.cc3.config.death_tax: 死亡懲罰
-text.cc3.config.death_tax.off: 無
+text.cc3.config.death_tax.off: 關閉
 text.cc3.config.death_tax.off.info: 沒有死亡懲罰。
 text.cc3.config.death_tax.mild: 輕微
 text.cc3.config.death_tax.mild.info: |-
@@ -22,7 +22,7 @@ text.cc3.config.death_tax.normal: 一般
 text.cc3.config.death_tax.normal.info: |-
   死亡時，物品損失 20%% 耐久度。
   此外，有消失詛咒的物品會被刪除。
-text.cc3.config.death_tax.challenge: 挑戰！
+text.cc3.config.death_tax.challenge: 破壞體驗
 text.cc3.config.death_tax.challenge.info: |-
   死亡時，物品損失 99%% 耐久度。
   此外，有消失詛咒的物品會被刪除。
@@ -33,8 +33,18 @@ text.cc3.config.death_stats_location.list: 玩家列表
 text.cc3.config.reset: 重設
 
 text.cc3.teleporter.title: 傳送
-text.cc3.teleporter.info: 選擇想要前往的傳送點。
-text.cc3.teleporter.empty: 沒有已解鎖的傳送點。
+text.cc3.teleporter.info: |-
+  現在位置：%s
+
+  選擇想要前往的傳送點。
+text.cc3.teleporter.empty:  |-
+  現在位置：%s
+
+  沒有其他傳送點可以傳送。
+  繼續探索吧！
+text.cc3.teleporter.invalid_destination: |-
+  目標傳送點未解鎖。
+  ...你怎麼執行這個傳送指令的？
 
 text.cc3.stats.deaths: 死亡次數
 text.cc3.stats.mob_kills: 擊殺怪物
@@ -67,3 +77,5 @@ item.cc3.black_bone: 黑骨頭
 item.cc3.golden_apple: 未附魔金蘋果
 
 # skip text.cc3.thing
+
+subtitles.cc3.teleporter.unlock: 傳送點解鎖

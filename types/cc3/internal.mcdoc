@@ -1,5 +1,11 @@
 use ::java::util::text::Text
+use ::java::util::text::TextObject
 use ::java::data::dialog::Button
+
+type NonTrivialText = (
+  TextObject |
+  [Text] @ 1.. |
+)
 
 dispatch minecraft:storage[cc3:config] to struct {
   death_tax_mode?: DeathTaxMode,
@@ -29,7 +35,7 @@ dispatch minecraft:storage[cc3:teleporter] to struct {
 }
 
 struct TeleporterData {
-  name: Text,
+  name: NonTrivialText,
   unlocked?: struct {},
   pos: BlockPos,
 }
@@ -56,6 +62,8 @@ dispatch minecraft:storage[cc3:macro] to struct {
     death_stats?: DeathStatsType,
   },
   teleporter_screen?: struct {
+    /// Name of the interacted teleporter
+    name?: NonTrivialText,
     buttons?: [Button],
   },
   stats_screen?: struct {
