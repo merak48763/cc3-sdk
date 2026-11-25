@@ -1,0 +1,9 @@
+{
+  "type": "div",
+  "left": {
+    "type": "mod",
+    "left": "cc3.impl:play_time/ticks",
+    "right": 72000
+  },
+  "right": 1200
+}

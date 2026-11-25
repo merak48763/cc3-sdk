@@ -72,8 +72,8 @@ dispatch minecraft:storage[cc3:macro] to struct {
     spawner?: int,
     torch?: int,
     totems?: int,
-    time?: (float | string),
-    time_unit_type?: int,
+    time_h?: int,
+    time_m?: int,
   },
   list_access?: struct {
     index?: int,

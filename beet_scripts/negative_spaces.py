@@ -11,11 +11,7 @@ TARGET_TRANSLATIONS = {
   "text.cc3.stats.time",
   "text.cc3.stats.torch",
   "text.cc3.stats.totems",
-  "text.cc3.time_unit.0",
-  "text.cc3.time_unit.1",
-  "text.cc3.time_unit.2",
-  "text.cc3.time_unit.3",
-  "text.cc3.time_unit.4",
+  "fmt.cc3.time",
 }
 
 

@@ -9,13 +9,9 @@ execute store result storage cc3:macro stats_screen.torch int 1 \
 execute store result storage cc3:macro stats_screen.totems int 1 \
   run scoreboard players get @s cc3.stats.totems
 
-data modify storage cc3:macro stats_screen.time \
-  set compute default float cc3.impl:play_time/select_value
-# float casting to double causes precision artifacts
-# -> cast to string to avoid that
-data modify storage cc3:macro stats_screen.time \
-  set string storage cc3:macro stats_screen.time 0 -1
-data modify storage cc3:macro stats_screen.time_unit_type \
-  set compute default integer cc3.impl:play_time/select_unit
+data modify storage cc3:macro stats_screen.time_h \
+  set compute default integer cc3.impl:play_time/hours
+data modify storage cc3:macro stats_screen.time_m \
+  set compute default integer cc3.impl:play_time/minutes
 
 function cc3.impl:stats/show_screen/dialog_show with storage cc3:macro stats_screen

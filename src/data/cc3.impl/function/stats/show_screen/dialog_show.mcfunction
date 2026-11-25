@@ -80,8 +80,8 @@ $dialog show @s { \
         with: [ \
           {translate: "text.cc3.stats.time"}, \
           {translate: "text.cc3.stats.time", font: "cc3.impl:inv"}, \
-          {translate: "fmt.cc3.time_with_unit", with: [$(time), {translate: "text.cc3.time_unit.$(time_unit_type)"}]}, \
-          {translate: "fmt.cc3.time_with_unit", with: [$(time), {translate: "text.cc3.time_unit.$(time_unit_type)"}], font: "cc3.impl:inv"}, \
+          {translate: "fmt.cc3.time", with: [$(time_h), $(time_m)]}, \
+          {translate: "fmt.cc3.time", with: [$(time_h), $(time_m)], font: "cc3.impl:inv"}, \
           {text: "\ue001", font: "cc3.impl:space"}, \
           {text: "\ue002", font: "cc3.impl:space"}, \
           {text: "\ue003", font: "cc3.impl:space"}, \

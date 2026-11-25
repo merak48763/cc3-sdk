@@ -67,12 +67,7 @@ text.cc3.shared_stats.title: Statistics of %s
 # 9: big filler to make dialog body actually wide because 0 width is buggy (MC-311853)
 fmt.cc3.stats_entry: '%9$s%5$s%2$s%1$s%6$s%7$s%3$s%4$s%8$s%9$s'
 
-text.cc3.time_unit.0: s
-text.cc3.time_unit.1: min
-text.cc3.time_unit.2: h
-text.cc3.time_unit.3: d
-text.cc3.time_unit.4: 'y'
-fmt.cc3.time_with_unit: '%s %s'
+fmt.cc3.time: '%s h %s m'
 
 text.cc3.resourcepack: Resource Pack
 # 1: language name
